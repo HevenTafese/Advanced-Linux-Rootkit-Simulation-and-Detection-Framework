@@ -4,7 +4,7 @@
 
 This framework simulates and detects Linux rootkit techniques in a controlled environment. It implements eight techniques used by real-world rootkits and runs a detection engine that cross-references multiple OS data sources to identify them.
 
-The simulation side deploys each technique safely — all artifacts are written to /tmp and can be removed at any time. The detection side scans the system using methods that bypass the hooks a real rootkit would install, reading /proc directly rather than relying on userspace tools that can be compromised.
+The simulation side deploys each technique safely all artifacts are written to /tmp and can be removed at any time. The detection side scans the system using methods that bypass the hooks a real rootkit would install, reading /proc directly rather than relying on userspace tools that can be compromised.
 
 Every technique and detection maps to a MITRE ATT&CK for Linux technique ID.
 
