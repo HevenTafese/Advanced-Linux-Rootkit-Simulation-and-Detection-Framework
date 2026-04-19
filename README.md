@@ -12,23 +12,23 @@ Every technique and detection maps to a MITRE ATT&CK for Linux technique ID.
 
 ## Dashboard
 
-**Simulation Control — run individual rootkit techniques or all eight at once, each card shows the MITRE technique ID, severity, and execution status**
+**Simulation Control: run individual rootkit techniques or all eight at once, each card shows the MITRE technique ID, severity, and execution status**
 
 ![Simulation Control](docs/screanshots/simulation.png)
 
-**Live Detection — cross-references multiple OS data sources simultaneously, each check shows a confidence score and the specific indicators found**
+**Live Detection: cross-references multiple OS data sources simultaneously, each check shows a confidence score and the specific indicators found**
 
 ![Live Detection](docs/screanshots/detection.png)
 
-**MITRE ATT&CK — technique frequency by tactic and a coverage heatmap showing which techniques have been simulated and detected**
+**MITRE ATT&CK: technique frequency by tactic and a coverage heatmap showing which techniques have been simulated and detected**
 
 ![MITRE ATT&CK](docs/screanshots/mitre.png)
 
-**Timeline — chronological view of all simulation and detection events with confidence scores and technique IDs**
+**Timeline: chronological view of all simulation and detection events with confidence scores and technique IDs**
 
 ![Timeline](docs/screanshots/timeline.png)
 
-**Forensic Report — full scan summary with JSON and PDF export**
+**Forensic Report: full scan summary with JSON and PDF export**
 
 ![Forensic Report](docs/screanshots/report.png)
 
